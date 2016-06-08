@@ -1,0 +1,697 @@
+Last login: Sun May 15 14:16:12 on ttys000
+xielandeMacBook-Pro:~ xielan$ npm install -g grunt-cli
+npm ERR! tar.unpack untar error /Users/xielan/.npm/grunt-cli/1.2.0/package.tgz
+npm ERR! Darwin 14.5.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "grunt-cli"
+npm ERR! node v4.4.4
+npm ERR! npm  v2.15.1
+npm ERR! path /usr/local/lib/node_modules/grunt-cli
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall mkdir
+
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/grunt-cli'
+npm ERR!     at Error (native)
+npm ERR!  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/grunt-cli']
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/grunt-cli',
+npm ERR!   fstream_type: 'Directory',
+npm ERR!   fstream_path: '/usr/local/lib/node_modules/grunt-cli',
+npm ERR!   fstream_class: 'DirWriter',
+npm ERR!   fstream_stack: 
+npm ERR!    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+npm ERR!      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+npm ERR!      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/xielan/npm-debug.log
+xielandeMacBook-Pro:~ xielan$ sudo npm install -g grunt-cli
+Password:
+/usr/local/bin/grunt -> /usr/local/lib/node_modules/grunt-cli/bin/grunt
+grunt-cli@1.2.0 /usr/local/lib/node_modules/grunt-cli
+├── grunt-known-options@1.1.0
+├── resolve@1.1.7
+├── nopt@3.0.6 (abbrev@1.0.7)
+└── findup-sync@0.3.0 (glob@5.0.15)
+xielandeMacBook-Pro:~ xielan$ nmp instal
+-bash: nmp: command not found
+xielandeMacBook-Pro:~ xielan$ 
+xielandeMacBook-Pro:~ xielan$ nmp install
+-bash: nmp: command not found
+xielandeMacBook-Pro:~ xielan$ npm install
+npm ERR! install Couldn't read dependencies
+npm ERR! Darwin 14.5.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+npm ERR! node v4.4.4
+npm ERR! npm  v2.15.1
+npm ERR! path /Users/xielan/package.json
+npm ERR! code ENOPACKAGEJSON
+npm ERR! errno -2
+npm ERR! syscall open
+
+npm ERR! package.json ENOENT: no such file or directory, open '/Users/xielan/package.json'
+npm ERR! package.json This is most likely not a problem with npm itself.
+npm ERR! package.json npm can't find a package.json file in your current directory.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/xielan/npm-debug.log
+xielandeMacBook-Pro:~ xielan$ sudo npm install
+Password:
+npm ERR! install Couldn't read dependencies
+npm ERR! Darwin 14.5.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+npm ERR! node v4.4.4
+npm ERR! npm  v2.15.1
+npm ERR! path /Users/xielan/package.json
+npm ERR! code ENOPACKAGEJSON
+npm ERR! errno -2
+npm ERR! syscall open
+
+npm ERR! package.json ENOENT: no such file or directory, open '/Users/xielan/package.json'
+npm ERR! package.json This is most likely not a problem with npm itself.
+npm ERR! package.json npm can't find a package.json file in your current directory.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/xielan/npm-debug.log
+xielandeMacBook-Pro:~ xielan$ ls
+360云盘			Movies			feature_3_cat3
+Applications		Music			feature_3_cat4
+Desktop			Pictures		feature_3_cat5
+Documents		Public			my
+Downloads		feature_3_cat1		npm-debug.log
+Library			feature_3_cat2		百度云同步盘
+xielandeMacBook-Pro:~ xielan$ npm -h
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, add-user, adduser, apihelp, author, bin, bugs, c,
+    cache, completion, config, ddp, dedupe, deprecate, dist-tag,
+    dist-tags, docs, edit, explore, faq, find, find-dupes, get,
+    help, help-search, home, i, info, init, install, issues, la,
+    link, list, ll, ln, login, logout, ls, outdated, owner,
+    pack, ping, prefix, prune, publish, r, rb, rebuild, remove,
+    repo, restart, rm, root, run-script, s, se, search, set,
+    show, shrinkwrap, star, stars, start, stop, t, tag, team,
+    test, tst, un, uninstall, unlink, unpublish, unstar, up,
+    update, upgrade, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/xielan/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@2.15.1 /usr/local/lib/node_modules/npm
+xielandeMacBook-Pro:~ xielan$ npm help install
+xielandeMacBook-Pro:~ xielan$ npm help install path
+Top hits for "install" "path"
+————————————————————————————————————————————————————————————————————————————————
+npm help install                                               install:89 path:3
+npm help config                                               install:34 path:16
+npm help package.json                                         install:37 path:13
+npm help folders                                               install:41 path:2
+npm help scripts                                               install:41 path:2
+npm help npm                                                   install:20 path:1
+npm help developers                                            install:14 path:3
+npm help removing-npm                                          install:15 path:1
+npm help cache                                                  install:2 path:5
+npm help ls                                                     install:4 path:3
+npm help edit                                                   install:5 path:1
+npm help publish                                                install:5 path:1
+npm help npmrc                                                  install:2 path:3
+npm help explore                                                install:3 path:1
+npm help run-script                                             install:1 path:2
+npm apihelp publish                                             install:1 path:1
+npm help shrinkwrap                                                   install:28
+npm help index                                                        install:13
+npm help update                                                       install:12
+npm help outdated                                                     install:12
+npm help scope                                                        install:12
+npm help uninstall                                                    install:12
+npm help dist-tag                                                     install:11
+npm help tag                                                           install:7
+npm apihelp install                                                    install:7
+npm apihelp uninstall                                                  install:6
+npm help link                                                          install:5
+npm apihelp ls                                                         install:5
+npm apihelp npm                                                        install:4
+npm help rm                                                            install:4
+npm apihelp edit                                                       install:4
+npm apihelp link                                                       install:3
+npm help build                                                         install:3
+npm help bundle                                                        install:3
+npm apihelp deprecate                                                  install:2
+npm help rebuild                                                       install:2
+npm help disputes                                                      install:2
+npm apihelp explore                                                    install:2
+npm help pack                                                          install:1
+npm help deprecate                                                     install:1
+npm help prune                                                         install:1
+npm apihelp test                                                       install:1
+npm apihelp update                                                     install:1
+npm apihelp bin                                                        install:1
+npm help help                                                             path:1
+npm help bin                                                           install:1
+npm apihelp pack                                                       install:1
+npm help dedupe                                                        install:1
+npm help test                                                          install:1
+npm apihelp tag                                                        install:1
+npm apihelp rebuild                                                    install:1
+npm help semver                                                        install:1
+————————————————————————————————————————————————————————————————————————————————
+(run with -l or --long to see more context)
+xielandeMacBook-Pro:~ xielan$ npm help config
+xielandeMacBook-Pro:~ xielan$ npm help package.json
+xielandeMacBook-Pro:~ xielan$ ls
+360云盘			Movies			feature_3_cat3
+Applications		Music			feature_3_cat4
+Desktop			Pictures		feature_3_cat5
+Documents		Public			my
+Downloads		feature_3_cat1		百度云同步盘
+Library			feature_3_cat2
+xielandeMacBook-Pro:~ xielan$ cd /Library/WebServer/
+xielandeMacBook-Pro:WebServer xielan$ ls
+BootstrapWeb		dash.js-development.zip	test
+CGI-Executables		dash.js-master		viewer
+Documents		eleVRWebPlayer		web
+dash.js-development	share
+xielandeMacBook-Pro:WebServer xielan$ cd dash.js-development
+xielandeMacBook-Pro:dash.js-development xielan$ ls
+AUTHORS.md		contrib			samples
+Gruntfile.js		docs			src
+ISSUE_TEMPLATE.md	externals		test
+LICENSE.md		index.js		web.config
+README.md		mochahook.js
+build			package.json
+xielandeMacBook-Pro:dash.js-development xielan$ npm install
+npm ERR! Darwin 14.5.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+npm ERR! node v4.4.4
+npm ERR! npm  v2.15.1
+
+npm ERR! shasum check failed for /var/folders/v_/5bkd5gv15yxbck5ypgn3flw00000gn/T/npm-8511-db26d14d/registry.npmjs.org/sinon/-/sinon-1.17.4.tgz
+npm ERR! Expected: 4e4ff4d84b20adee13138f36acb132ca1cd72c83
+npm ERR! Actual:   d8a39bb94bcd51bddea2481d0ff6dead19ad1a63
+npm ERR! From:     https://registry.npmjs.org/sinon/-/sinon-1.17.4.tgz
+npm ERR! 
+npm ERR! If you need help, you may report this error at:
+npm ERR!     <https://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Library/WebServer/dash.js-development/npm-debug.log
+xielandeMacBook-Pro:dash.js-development xielan$ npm install
+npm WARN deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
+npm WARN deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated graceful-fs@2.0.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm WARN deprecated lodash@1.0.2: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
+ 
+> electron-prebuilt@0.30.8 postinstall /Library/WebServer/dash.js-development/node_modules/iron-mocha/node_modules/iron-node/node_modules/electron-prebuilt
+> node install.js
+
+Downloading electron-v0.30.8-darwin-x64.zip
+[============================================>] 100.0% of 35.33 MB (316.13 kB/s)
+
+> fsevents@1.0.12 install /Library/WebServer/dash.js-development/node_modules/babel/node_modules/chokidar/node_modules/fsevents
+> node-pre-gyp install --fallback-to-build
+
+[fsevents] Success: "/Library/WebServer/dash.js-development/node_modules/babel/node_modules/chokidar/node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.0.12 install /Library/WebServer/dash.js-development/node_modules/grunt-browserify/node_modules/watchify/node_modules/chokidar/node_modules/fsevents
+> node-pre-gyp install --fallback-to-build
+
+[fsevents] Success: "/Library/WebServer/dash.js-development/node_modules/grunt-browserify/node_modules/watchify/node_modules/chokidar/node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node" is installed via remote
+
+> dashjs@2.2.0 prepublish /Library/WebServer/dash.js-development
+> grunt prepublish
+
+Running "githooks:all" (githooks) task
+
+Binding `lint` to `pre-commit` Git hook.
+OK
+
+Running "clean:build" (clean) task
+>> 0 paths cleaned.
+
+Running "clean:dist" (clean) task
+>> 0 paths cleaned.
+
+Running "jshint:src" (jshint) task
+>> 176 files lint free.
+
+Running "jscs:src" (jscs) task
+>> 176 files without code style errors.
+
+Running "browserify:mediaplayer" (browserify) task
+>> Bundle build/temp/dash.mediaplayer.debug.js created.
+
+Running "browserify:protection" (browserify) task
+>> Bundle build/temp/dash.protection.debug.js created.
+
+Running "browserify:reporting" (browserify) task
+>> Bundle build/temp/dash.reporting.debug.js created.
+
+Running "browserify:all" (browserify) task
+>> Bundle build/temp/dash.all.debug.js created.
+
+Running "exorcise:mediaplayer" (exorcise) task
+Exorcising source map from build/temp/dash.mediaplayer.debug.js
+
+Running "exorcise:protection" (exorcise) task
+Exorcising source map from build/temp/dash.protection.debug.js
+
+Running "exorcise:all" (exorcise) task
+Exorcising source map from build/temp/dash.all.debug.js
+
+Running "exorcise:reporting" (exorcise) task
+Exorcising source map from build/temp/dash.reporting.debug.js
+
+Running "uglify:build_core" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "uglify:build_protection" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "uglify:build_reporting" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "uglify:build_all" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "copy:dist" (copy) task
+Copied 16 files
+
+Done, without errors.
+
+
+Execution Time (2016-05-15 09:03:33 UTC)
+loading tasks             1.3s  ▇▇ 3%
+jshint:src                4.2s  ▇▇▇▇▇ 11%
+jscs:src                  3.1s  ▇▇▇ 8%
+browserify:mediaplayer   10.3s  ▇▇▇▇▇▇▇▇▇▇▇ 27%
+browserify:protection     1.4s  ▇▇ 4%
+browserify:reporting     838ms  ▇ 2%
+browserify:all            9.5s  ▇▇▇▇▇▇▇▇▇▇ 25%
+uglify:build_core         3.6s  ▇▇▇▇ 10%
+uglify:build_protection  408ms  ▇ 1%
+uglify:build_all          2.6s  ▇▇▇ 7%
+Total 37.9s
+
+grunt-mocha-istanbul@3.0.1 node_modules/grunt-mocha-istanbul
+
+chai-spies@0.7.1 node_modules/chai-spies
+
+codem-isoboxer@0.2.2 node_modules/codem-isoboxer
+
+grunt-contrib-clean@0.6.0 node_modules/grunt-contrib-clean
+└── rimraf@2.2.8
+
+sinon@1.17.4 node_modules/sinon
+├── formatio@1.1.1
+├── samsam@1.1.2
+├── lolex@1.3.2
+└── util@0.10.3 (inherits@2.0.1)
+
+load-grunt-tasks@3.5.0 node_modules/load-grunt-tasks
+├── arrify@1.0.1
+├── resolve-pkg@0.1.0 (resolve-from@2.0.0)
+├── multimatch@2.1.0 (array-differ@1.0.0, minimatch@3.0.0, array-union@1.0.1)
+└── pkg-up@1.0.0 (find-up@1.1.2)
+
+chai@3.5.0 node_modules/chai
+├── assertion-error@1.0.1
+├── type-detect@1.0.0
+└── deep-eql@0.1.3 (type-detect@0.1.1)
+
+grunt-exorcise@2.1.1 node_modules/grunt-exorcise
+├── async@0.2.10
+├── concat-stream@1.4.10 (inherits@2.0.1, typedarray@0.0.6, readable-stream@1.1.14)
+├── resumer@0.0.0 (through@2.3.8)
+└── exorcist@0.4.0 (nave@0.5.3, minimist@0.0.5, mold-source-map@0.4.0)
+
+mocha@2.4.5 node_modules/mocha
+├── escape-string-regexp@1.0.2
+├── commander@2.3.0
+├── diff@1.4.0
+├── growl@1.8.1
+├── supports-color@1.2.0
+├── debug@2.2.0 (ms@0.7.1)
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── jade@0.26.3 (commander@0.6.1, mkdirp@0.3.0)
+└── glob@3.2.3 (inherits@2.0.1, graceful-fs@2.0.3, minimatch@0.2.14)
+
+grunt-contrib-jshint@0.11.3 node_modules/grunt-contrib-jshint
+├── hooker@0.2.3
+└── jshint@2.8.0 (strip-json-comments@1.0.4, exit@0.1.2, minimatch@2.0.10, shelljs@0.3.0, lodash@3.7.0, console-browserify@1.1.0, cli@0.6.6, htmlparser2@3.8.3)
+
+uglify-js@2.6.2 node_modules/uglify-js
+├── async@0.2.10
+├── uglify-to-browserify@1.0.2
+├── source-map@0.5.6
+└── yargs@3.10.0 (decamelize@1.2.0, camelcase@1.2.1, window-size@0.1.0, cliui@2.1.0)
+
+bundle-collapser@1.2.1 node_modules/bundle-collapser
+├── minimist@1.2.0
+├── through2@2.0.1 (xtend@4.0.1, readable-stream@2.0.6)
+├── concat-stream@1.5.1 (inherits@2.0.1, typedarray@0.0.6, readable-stream@2.0.6)
+├── browser-unpack@1.1.1 (acorn@2.7.0)
+├── falafel@1.2.0 (isarray@0.0.1, foreach@2.0.5, object-keys@1.0.9, acorn@1.2.2)
+└── browser-pack@5.0.1 (umd@3.0.1, defined@1.0.0, through2@1.1.1, JSONStream@1.1.1, combine-source-map@0.6.1)
+
+grunt-githooks@0.5.0 node_modules/grunt-githooks
+└── handlebars@1.0.12 (optimist@0.3.7, uglify-js@2.3.6)
+
+jsdoc@3.4.0 node_modules/jsdoc
+├── async@1.4.2
+├── taffydb@2.6.2
+├── escape-string-regexp@1.0.5
+├── strip-json-comments@1.0.4
+├── underscore@1.8.3
+├── marked@0.3.5
+├── wrench@1.5.9
+├── js2xmlparser@1.0.0
+├── espree@2.2.5
+├── bluebird@2.9.34
+├── requizzle@0.2.1 (underscore@1.6.0)
+└── catharsis@0.8.8 (underscore-contrib@0.3.0)
+
+grunt-contrib-connect@0.10.1 node_modules/grunt-contrib-connect
+├── connect-livereload@0.5.4
+├── opn@1.0.2
+├── async@0.9.2
+├── portscanner@1.0.0 (async@0.1.15)
+└── connect@2.30.2 (bytes@2.1.0, cookie@0.1.3, utils-merge@1.0.0, cookie-signature@1.0.6, content-type@1.0.2, on-headers@1.0.1, pause@0.1.0, vhost@3.0.2, fresh@0.3.0, parseurl@1.3.1, response-time@2.3.1, basic-auth-connect@1.0.0, cookie-parser@1.3.5, depd@1.0.1, qs@4.0.0, connect-timeout@1.6.2, debug@2.2.0, http-errors@1.3.1, serve-favicon@2.3.0, method-override@2.3.5, morgan@1.6.1, finalhandler@0.4.0, express-session@1.11.3, multiparty@3.3.2, type-is@1.6.12, compression@1.5.2, errorhandler@1.4.3, csurf@1.8.3, serve-static@1.10.2, serve-index@1.7.3, body-parser@1.13.3)
+
+grunt-contrib-copy@0.8.2 node_modules/grunt-contrib-copy
+├── file-sync-cmp@0.1.1
+└── chalk@1.1.3 (escape-string-regexp@1.0.5, ansi-styles@2.2.1, supports-color@2.0.0, strip-ansi@3.0.1, has-ansi@2.0.0)
+
+time-grunt@1.3.0 node_modules/time-grunt
+├── date-time@1.0.0
+├── number-is-nan@1.0.0
+├── figures@1.6.0
+├── hooker@0.2.3
+├── text-table@0.2.0
+├── pretty-ms@2.1.0 (parse-ms@1.0.1, plur@1.0.0, is-finite@1.0.1)
+└── chalk@1.1.3 (escape-string-regexp@1.0.5, ansi-styles@2.2.1, supports-color@2.0.0, has-ansi@2.0.0, strip-ansi@3.0.1)
+
+grunt-contrib-uglify@0.9.2 node_modules/grunt-contrib-uglify
+├── uri-path@0.0.2
+├── lodash@3.10.1
+├── maxmin@1.1.0 (figures@1.6.0, gzip-size@1.0.0, pretty-bytes@1.0.4)
+└── chalk@1.1.3 (escape-string-regexp@1.0.5, ansi-styles@2.2.1, supports-color@2.0.0, has-ansi@2.0.0, strip-ansi@3.0.1)
+
+grunt-jsdoc@0.6.10 node_modules/grunt-jsdoc
+└── ink-docstrap@0.5.4 (moment@2.10.6)
+
+grunt@0.4.5 node_modules/grunt
+├── eventemitter2@0.4.14
+├── dateformat@1.0.2-1.2.3
+├── which@1.0.9
+├── getobject@0.1.0
+├── async@0.1.22
+├── colors@0.6.2
+├── lodash@0.9.2
+├── rimraf@2.2.8
+├── hooker@0.2.3
+├── grunt-legacy-util@0.2.0
+├── exit@0.1.2
+├── coffee-script@1.3.3
+├── iconv-lite@0.2.11
+├── nopt@1.0.10 (abbrev@1.0.7)
+├── underscore.string@2.2.1
+├── minimatch@0.2.14 (sigmund@1.0.1, lru-cache@2.7.3)
+├── glob@3.1.21 (inherits@1.0.2, graceful-fs@1.2.3)
+├── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.16)
+├── grunt-legacy-log@0.1.3 (grunt-legacy-log-utils@0.1.1, lodash@2.4.2, underscore.string@2.3.3)
+└── findup-sync@0.1.3 (lodash@2.4.2, glob@3.2.11)
+
+grunt-cli@0.1.13 node_modules/grunt-cli
+├── nopt@1.0.10 (abbrev@1.0.7)
+├── resolve@0.3.1
+└── findup-sync@0.1.3 (lodash@2.4.2, glob@3.2.11)
+
+istanbul@0.4.3 node_modules/istanbul
+├── abbrev@1.0.7
+├── nopt@3.0.6
+├── async@1.5.2
+├── wordwrap@1.0.0
+├── esprima@2.7.2
+├── once@1.3.3 (wrappy@1.0.1)
+├── supports-color@3.1.2 (has-flag@1.0.0)
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── fileset@0.2.1 (minimatch@2.0.10, glob@5.0.15)
+├── resolve@1.1.7
+├── which@1.2.8 (isexe@1.1.2, is-absolute@0.1.7)
+├── escodegen@1.8.0 (estraverse@1.9.3, esutils@2.0.2, optionator@0.8.1, source-map@0.2.0)
+├── js-yaml@3.6.1 (argparse@1.0.7)
+└── handlebars@4.0.5 (source-map@0.4.4, optimist@0.6.1)
+
+grunt-contrib-watch@0.6.1 node_modules/grunt-contrib-watch
+├── async@0.2.10
+├── lodash@2.4.2
+├── gaze@0.5.2 (globule@0.1.0)
+└── tiny-lr-fork@0.0.5 (debug@0.7.4, qs@0.5.6, faye-websocket@0.4.4, noptify@0.0.3)
+
+ink-docstrap@1.1.4 node_modules/ink-docstrap
+├── sanitize-html@1.11.4 (regexp-quote@0.0.0, xtend@4.0.1, htmlparser2@3.9.0)
+└── moment@2.13.0
+
+browserify-derequire@0.9.4 node_modules/browserify-derequire
+├── through2@1.1.1 (xtend@4.0.1, readable-stream@1.1.14)
+└── derequire@2.0.3 (acorn@0.12.0, concat-stream@1.5.1, through2@2.0.1, yargs@3.32.0, escope@2.0.7)
+
+babelify@6.4.0 node_modules/babelify
+├── object-assign@4.1.0
+└── babel-core@5.8.38 (slash@1.0.0, path-exists@1.0.0, path-is-absolute@1.0.0, fs-readdir-recursive@0.1.2, try-resolve@1.0.1, babel-plugin-remove-debugger@1.0.1, babel-plugin-remove-console@1.0.1, babel-plugin-property-literals@1.0.1, babel-plugin-eval@1.0.1, babel-plugin-react-constant-elements@1.0.3, babel-plugin-jscript@1.0.4, babel-plugin-react-display-name@1.0.3, babel-plugin-dead-code-elimination@1.0.2, babel-plugin-inline-environment-variables@1.0.1, babel-plugin-constant-folding@1.0.1, trim-right@1.0.1, shebang-regex@1.0.0, babel-plugin-member-expression-literals@1.0.1, babel-plugin-undefined-to-void@1.1.6, to-fast-properties@1.0.2, babel-plugin-proto-to-assign@1.0.4, babel-plugin-runtime@1.0.7, globals@6.4.1, esutils@2.0.2, private@0.1.6, convert-source-map@1.2.0, js-tokens@1.0.1, source-map@0.5.6, babylon@5.8.38, home-or-tmp@1.0.0, debug@2.2.0, babel-plugin-undeclared-variables-check@1.0.2, chalk@1.1.3, minimatch@2.0.10, detect-indent@3.0.1, is-integer@1.0.6, repeating@1.1.3, bluebird@2.10.2, output-file-sync@1.1.1, resolve@1.1.7, source-map-support@0.2.10, regexpu@1.3.0, json5@0.4.0, regenerator@0.8.40, lodash@3.10.1, core-js@1.2.6)
+
+grunt-jscs@2.8.0 node_modules/grunt-jscs
+├── vow@0.4.12
+├── hooker@0.2.3
+├── lodash@4.6.1
+└── jscs@2.11.0 (to-double-quotes@2.0.0, estraverse@4.2.0, to-single-quotes@2.0.0, strip-json-comments@1.0.4, reserved-words@0.1.1, natural-compare@1.2.2, pathval@0.1.1, esprima@2.7.2, jscs-preset-wikimedia@1.0.0, strip-bom@2.0.0, exit@0.1.2, xmlbuilder@3.1.0, commander@2.9.0, chalk@1.1.3, minimatch@3.0.0, glob@5.0.15, cli-table@0.3.1, resolve@1.1.7, vow-fs@0.3.5, jscs-jsdoc@1.3.2, js-yaml@3.4.6, htmlparser2@3.8.3, prompt@0.2.14, jsonlint@1.6.2, lodash@3.10.1, escope@3.6.0, babel-jscs@2.0.5)
+
+iron-mocha@1.0.3 node_modules/iron-mocha
+└── iron-node@1.5.32 (open@0.0.5, nmp@1.0.3, package.js@1.1.3, semver@5.1.0, commander@2.9.0, markdown@0.5.0, electron-recompile@1.0.16, electron-toaster@1.0.8, electron-prebuilt@0.30.8)
+
+babel@5.8.38 node_modules/babel
+├── path-is-absolute@1.0.0
+├── slash@1.0.0
+├── path-exists@1.0.0
+├── fs-readdir-recursive@0.1.2
+├── convert-source-map@1.2.0
+├── commander@2.9.0 (graceful-readlink@1.0.1)
+├── source-map@0.5.6
+├── glob@5.0.15 (inherits@2.0.1, once@1.3.3, inflight@1.0.4, minimatch@3.0.0)
+├── output-file-sync@1.1.1 (xtend@4.0.1, mkdirp@0.5.1)
+├── lodash@3.10.1
+├── babel-core@5.8.38 (try-resolve@1.0.1, babel-plugin-remove-console@1.0.1, babel-plugin-remove-debugger@1.0.1, babel-plugin-eval@1.0.1, babel-plugin-property-literals@1.0.1, babel-plugin-jscript@1.0.4, babel-plugin-react-constant-elements@1.0.3, babel-plugin-react-display-name@1.0.3, babel-plugin-inline-environment-variables@1.0.1, babel-plugin-dead-code-elimination@1.0.2, babel-plugin-constant-folding@1.0.1, trim-right@1.0.1, to-fast-properties@1.0.2, shebang-regex@1.0.0, babel-plugin-member-expression-literals@1.0.1, babel-plugin-undefined-to-void@1.1.6, babel-plugin-proto-to-assign@1.0.4, babel-plugin-runtime@1.0.7, globals@6.4.1, esutils@2.0.2, private@0.1.6, js-tokens@1.0.1, babylon@5.8.38, home-or-tmp@1.0.0, debug@2.2.0, babel-plugin-undeclared-variables-check@1.0.2, chalk@1.1.3, minimatch@2.0.10, detect-indent@3.0.1, is-integer@1.0.6, repeating@1.1.3, bluebird@2.10.2, resolve@1.1.7, source-map-support@0.2.10, regexpu@1.3.0, json5@0.4.0, regenerator@0.8.40, core-js@1.2.6)
+└── chokidar@1.5.0 (inherits@2.0.1, glob-parent@2.0.0, async-each@1.0.0, is-glob@2.0.1, is-binary-path@1.0.1, readdirp@2.0.0, anymatch@1.3.0, fsevents@1.0.12)
+
+grunt-browserify@4.0.1 node_modules/grunt-browserify
+├── async@0.9.2
+├── resolve@1.1.7
+├── glob@5.0.15 (path-is-absolute@1.0.0, inherits@2.0.1, minimatch@3.0.0, once@1.3.3, inflight@1.0.4)
+├── lodash@3.10.1
+├── browserify@11.2.0 (isarray@0.0.1, string_decoder@0.10.31, https-browserify@0.0.1, tty-browserify@0.0.0, constants-browserify@0.0.1, path-browserify@0.0.0, inherits@2.0.1, punycode@1.4.1, builtins@0.0.7, browser-resolve@1.11.1, os-browserify@0.1.2, htmlescape@1.1.1, process@0.11.3, commondir@0.0.1, defined@1.0.0, xtend@4.0.1, stream-browserify@2.0.1, shell-quote@0.0.1, assert@1.3.0, domain-browser@1.1.7, querystring-es3@0.2.1, timers-browserify@1.4.2, util@0.10.3, deps-sort@1.3.9, events@1.0.2, console-browserify@1.1.0, parents@1.0.1, vm-browserify@0.0.4, has@1.0.1, subarg@1.0.0, readable-stream@2.1.2, through2@1.1.1, url@0.10.3, concat-stream@1.4.10, duplexer2@0.0.2, glob@4.5.3, stream-http@1.7.1, buffer@3.6.0, read-only-stream@1.1.1, shasum@1.0.2, JSONStream@1.1.1, browserify-zlib@0.1.4, syntax-error@1.1.6, browser-pack@5.0.1, labeled-stream-splicer@1.0.2, crypto-browserify@3.11.0, insert-module-globals@6.6.3, module-deps@3.9.1)
+└── watchify@3.7.0 (defined@1.0.0, xtend@4.0.1, through2@2.0.1, outpipe@1.1.1, anymatch@1.3.0, browserify@13.0.1, chokidar@1.5.0)
+xielandeMacBook-Pro:dash.js-development xielan$ grunt
+Running "clean:build" (clean) task
+>> 1 path cleaned.
+
+Running "clean:dist" (clean) task
+>> 16 paths cleaned.
+
+Running "jshint:src" (jshint) task
+>> 176 files lint free.
+
+Running "jscs:src" (jscs) task
+>> 176 files without code style errors.
+
+Running "browserify:mediaplayer" (browserify) task
+>> Bundle build/temp/dash.mediaplayer.debug.js created.
+
+Running "browserify:protection" (browserify) task
+>> Bundle build/temp/dash.protection.debug.js created.
+
+Running "browserify:reporting" (browserify) task
+>> Bundle build/temp/dash.reporting.debug.js created.
+
+Running "browserify:all" (browserify) task
+>> Bundle build/temp/dash.all.debug.js created.
+
+Running "exorcise:mediaplayer" (exorcise) task
+Exorcising source map from build/temp/dash.mediaplayer.debug.js
+
+Running "exorcise:protection" (exorcise) task
+Exorcising source map from build/temp/dash.protection.debug.js
+
+Running "exorcise:all" (exorcise) task
+Exorcising source map from build/temp/dash.all.debug.js
+
+Running "exorcise:reporting" (exorcise) task
+Exorcising source map from build/temp/dash.reporting.debug.js
+
+Running "uglify:build_core" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "uglify:build_protection" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "uglify:build_reporting" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "uglify:build_all" (uglify) task
+>> 1 sourcemap created.
+>> 1 file created.
+
+Running "copy:dist" (copy) task
+Copied 16 files
+
+Running "mocha_istanbul:test" (mocha_istanbul) task
+
+
+  DashHandler
+    ✓ should generate an init segment for a representation
+
+  DashManifestModel
+    ✓ should return true when getIsDVB is called and manifest contains a valid DVB profile
+    ✓ should return false when getIsDVB is called and manifest does not contain a valid DVB profile
+    ✓ should return true when getIsOnDemand is called and manifest contains the on-demand profile
+    ✓ returns an empty Array when no BaseURLs or baseUri are present on a node
+    ✓ returns an Array of BaseURLs when no BaseURLs are present on a node, but there is a baseUri
+    ✓ returns an Array of BaseURLs with BaseURL[0] serviceLocation set to URL when no serviceLocation was specified
+    ✓ returns an Array of BaseURLs with length 1 when multiple relative BaseUrls were specified
+    ✓ returns an Array of BaseURLs when multiple BaseUrls were specified
+    ✓ returns an Array of BaseURLs with BaseURL[0] serviceLocation set when serviceLocation was specified
+    ✓ returns an Array of BaseURLs with BaseURL[0] having correct defaults for DVB extensions when not specified
+    ✓ returns an Array of BaseURLs with BaseURL[0] having correct priority and weight for DVB extensions when specified
+    ✓ returns an Array of BaseURLs with BaseURL[0] resolved to the document base uri when the base uri is specified and the input url is relative
+    ✓ returns an Array of BaseURLs with BaseURL[0] ignoring the document base uri when the base uri is specified and the input url is absolute
+    ✓ returns an Array of BaseURLs with BaseURL[0] resolved to the document base uri when the base uri is specified but no other urls
+
+  RepresentationController
+    ✓ should not contain data before it is set
+    when data update started
+      ✓ should fire dataUpdateStarted event when new data is set
+    when data update completed
+      ✓ should return the data that was set
+      ✓ should return correct data index
+      ✓ should return correct representation for quality
+
+  TimelineConverter
+    ✓ should calculate timestamp offset
+    ✓ should set an expected live edge
+    ✓ should calculate presentation time from media time
+    ✓ should calculate media time from representation time
+    ✓ should calculate presentation time from wall-clock time
+    ✓ should calculate availability window for static mpd
+    when the live edge is found
+      ✓ should set isTimeSyncCompleted
+      ✓ should calculate availability window for dynamic mpd
+
+  AbrController
+    ✓ should update top quality index
+    ✓ should set a quality in a range between zero and a top quality index
+    ✓ should throw an exception when attempting to set not a number value for a quality
+    ✓ should ignore an attempt to set a negative quality value
+    ✓ should ignore an attempt to set a quality greater than top quality index
+    ✓ should restore a default quality value after reset
+    ✓ should compose a list of available bitrates
+
+  BaseURLResolution/BasicSelector
+    ✓ should return undefined when the input is undefined
+    ✓ should return undefined when the input is empty
+    ✓ should return undefined when the blacklist contains the requested serviceLocation
+    ✓ should return the first entry in the list when the blacklist does not contain the requested serviceLocation
+    ✓ should return the next entry in the list when the blacklist contains the serviceLocation of the first
+    ✓ should return undefined when the blacklist contains all the serviceLocations
+
+  BlacklistController
+    ✓ should return false when calling contains after initialisation
+    ✓ should return false when calling contains with undefined
+    ✓ should return false when calling contains with zero-length string
+    ✓ should return true when calling contains after calling add with same string
+    ✓ should trigger an update event after calling add
+    ✓ should add an entry to the blacklist on receiving load failed event
+    ✓ should not trigger an update event if a duplicate entry is added
+    ✓ should not contain an entry after reset
+
+  BaseURLResolution/DVBSelector
+    ✓ should return undefined when the input is undefined
+    ✓ should return undefined when the input is empty
+    ✓ should return undefined when the blacklist contains the requested serviceLocation
+    ✓ should return the first entry in the list when the blacklist does not contain the requested serviceLocation
+    ✓ should return the next entry in the list when the blacklist contains the serviceLocation of the first
+    ✓ should return undefined when the blacklist contains all the serviceLocations
+    ✓ should select baseUrls as defined in the example in DVB A168 10.8.2.4
+    ✓ should not select baseUrls with invalid priority when there is another option
+    ✓ should select baseUrls with invalid priority if there is no other option
+
+  FragmentController
+    ✓ should process bytes array
+    ✓ should not create or return model without context
+    ✓ should create or return model for a given context
+    ✓ should always return the same model for the context
+    ✓ should detach model
+    ✓ should identify an initialization segment
+
+  FragmentModel
+    ✓ should not have any loading, executed, canceled or failed requests
+    when a request has been added
+      ✓ should fire streamCompleted event for a complete request
+      when a request has been passed for executing
+        ✓ should fire loadingStarted event a request
+        ✓ should add the request to loading requests
+        ✓ should be able to abort loading requests
+
+
+  69 passing (1s)
+
+=============================================================================
+Writing coverage object [/Library/WebServer/dash.js-development/reports/coverage.json]
+Writing coverage reports at [/Library/WebServer/dash.js-development/reports]
+=============================================================================
+
+=============================== Coverage summary ===============================
+Statements   : 34.18% ( 3591/10507 ), 143 ignored
+Branches     : 17.11% ( 713/4166 ), 183 ignored
+Functions    : 23.02% ( 285/1238 ), 30 ignored
+Lines        : 32.89% ( 3293/10012 )
+================================================================================
+>> Done. Check coverage folder.
+
+Done, without errors.
+
+
+Execution Time (2016-05-15 09:09:36 UTC)
+loading tasks            1.7s  ▇▇ 3%
+jshint:src               4.3s  ▇▇▇▇ 8%
+jscs:src                 3.5s  ▇▇▇ 7%
+browserify:mediaplayer  10.3s  ▇▇▇▇▇▇▇▇ 20%
+browserify:protection    1.7s  ▇▇ 3%
+browserify:reporting       1s  ▇ 2%
+browserify:all          11.6s  ▇▇▇▇▇▇▇▇▇ 22%
+uglify:build_core        4.4s  ▇▇▇▇ 8%
+uglify:build_all         2.8s  ▇▇▇ 5%
+mocha_istanbul:test     10.6s  ▇▇▇▇▇▇▇▇ 20%
+Total 52.7s
+
+xielandeMacBook-Pro:dash.js-development xielan$ 
