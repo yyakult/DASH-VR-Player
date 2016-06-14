@@ -46,4 +46,9 @@ See details: https://www.radiantmediaplayer.com/guides/working-with-mp4box.html
 -
 
 
+Future Work
+================
+
+1. Make it live 
+2. Add more projections
 
